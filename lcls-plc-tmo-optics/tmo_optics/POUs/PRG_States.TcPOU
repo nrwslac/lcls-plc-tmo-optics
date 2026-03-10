@@ -20,6 +20,46 @@ VAR
      io: io;
     '}
     fbMR3K4_Coating_States: FB_KBO_Coating_States := (bBPOkAutoReset:= TRUE);
+
+    (*
+    {attribute 'pytmc' := '
+     pv: MR4K4:KBO:COATING;
+     io: io;
+    '}
+    fbMR4K4_Coating_States: FB_PositionStatePMPS1D;
+
+    {attribute 'pytmc' := '
+      pv: MR4K4:KBO:COATING:STATE:SET
+      io: io
+    '}
+    eMR4K4StateSet:  ENUM_Si_B4C_Coating_States;
+    {attribute 'pytmc' := '
+      pv: MR4K4:KBO:COATING:STATE:GET
+      io: i
+    '}
+    eMR4K4StateGet:  ENUM_Si_B4C_Coating_States;
+    fbMR4K4XSetup: FB_StateSetupHelper;
+    aMR4K4CoatingStatesX: ARRAY[1..GeneralConstants.MAX_STATES] OF ST_PositionState;
+
+    {attribute 'pytmc' := '
+     pv: MR5K4:KBO:COATING:STATE;
+     io: io;
+    '}
+    fbMR5K4_Coating_States: FB_PositionStatePMPS1D;
+    {attribute 'pytmc' := '
+      pv: MR5K4:KBO:COATING:STATE:SET
+      io: io
+    '}
+    eMR5K4StateSet:  ENUM_Si_B4C_Coating_States;
+    {attribute 'pytmc' := '
+      pv: MR5K4:KBO:COATING:STATE:GET
+      io: i
+    '}
+    eMR5K4StateGet:  ENUM_Si_B4C_Coating_States;
+    fbMR5K4YSetup: FB_StateSetupHelper;
+    aMR5K4CoatingStatesY: ARRAY[1..GeneralConstants.MAX_STATES] OF ST_PositionState;
+
+    *)
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -75,7 +115,34 @@ fbMR3K4_Coating_States(
     fbFFHWO:=GVL_PMPS.g_FastFaultOutput2,
     sPmpsDeviceName:='MR3K4:KBO',
     sTransitionKey:= 'MR3K4:KBO-TRANSITION'
-);]]></ST>
+);
+(*
+fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States.B4C],
+    sName:='B4C',
+    sPmpsState:='MR4K4:KBO-B4C',
+    fDelta := 4.187,
+    nEncoderCount:= 672747
+);
+fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States.Si],
+    sName:='Si',
+    sPmpsState:='MR4K4:KBO-Si',
+    fDelta := 3.65,
+    nEncoderCount:= 43221111
+);
+fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States.B4C],
+    sName:='B4C',
+    sPmpsState:='MR5K4:KBO-B4C',
+    fDelta := 7.85,
+    nEncoderCount:= 6785425
+);
+fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States.Si],
+    sName:='Si',
+    sPmpsState:='MR4K4:KBO-Si',
+    fDelta := 3.55,
+    nEncoderCount:= 4265000
+);
+
+*)]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

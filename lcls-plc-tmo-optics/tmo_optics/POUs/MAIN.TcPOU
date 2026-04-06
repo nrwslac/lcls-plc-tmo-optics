@@ -273,7 +273,7 @@ VAR
         {attribute 'pytmc' := '
             pv: MR4K4:KBO:MMS:X
         '}
-        M17 : ST_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+        M17 : ST_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=FALSE);
         fbMotionStageM17 : FB_MotionStage;
     //M4K4 Y
         {attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[EL7041-0052_M4K4Y]^STM Status^Status^Digital input 1;
@@ -319,7 +319,7 @@ VAR
         {attribute 'pytmc' := '
             pv: MR5K4:KBO:MMS:Y
         '}
-        M22 : ST_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+        M22 : ST_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=FALSE);
         fbMotionStageM22 : FB_MotionStage;
     //M5K4 Z
         {attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[EL7041-0052_M5K4Z]^STM Status^Status^Digital input 2;

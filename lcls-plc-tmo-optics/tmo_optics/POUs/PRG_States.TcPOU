@@ -33,16 +33,19 @@ VAR
       pv: MR4K4:KBO:COATING:STATE:SET
       io: io
     '}
-    eMR4K4StateSet:  ENUM_Si_B4C_Coating_States;
+    eMR4K4StateSet:  ENUM_Si_B4C_Coating_States_1D;
     {attribute 'pytmc' := '
       pv: MR4K4:KBO:COATING:STATE:GET
-      io: io
+      io: i
     '}
-    eMR4K4StateGet:  ENUM_Si_B4C_Coating_States;
+    eMR4K4StateGet:  ENUM_Si_B4C_Coating_States_1D;
     fbMR4K4XSetup: FB_StateSetupHelper;
     fbMR4K4Default: ST_PositionState := (
     fVelocity := 0.15,
+    bUseRawCounts := TRUE,
+    bMoveOk := TRUE,
     bValid := TRUE
+
     );
     aMR4K4CoatingStatesX: ARRAY[1..GeneralConstants.MAX_STATES] OF ST_PositionState;
 
@@ -55,22 +58,24 @@ VAR
       pv: MR5K4:KBO:COATING:STATE:SET
       io: io
     '}
-    eMR5K4StateSet:  ENUM_Si_B4C_Coating_States;
+    eMR5K4StateSet:  ENUM_Si_B4C_Coating_States_1D;
     {attribute 'pytmc' := '
       pv: MR5K4:KBO:COATING:STATE:GET
-      io: io
+      io: i
     '}
-    eMR5K4StateGet:  ENUM_Si_B4C_Coating_States;
+    eMR5K4StateGet: ENUM_Si_B4C_Coating_States_1D;
     fbMR5K4YSetup: FB_StateSetupHelper;
     fbMR5K4Default: ST_PositionState := (
     fVelocity := 0.15,
+    bUseRawCounts := TRUE,
+    bMoveOK := TRUE,
     bValid := TRUE
     );
 
     aMR5K4CoatingStatesY: ARRAY[1..GeneralConstants.MAX_STATES] OF ST_PositionState;
 
 
-    fbMR4K4_Coating_StatesX: INT;
+  //  fbMR4K4_Coating_StatesX: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -129,17 +134,17 @@ fbMR3K4_Coating_States(
 );
 
 fbMR4K4XSetup(stPositionState:= fbMR4K4Default, bSetDefault :=TRUE);
-fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States.B4C],
+fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States_1D.B4C],
     sName:='B4C',
     sPmpsState:='MR4K4:KBO-B4C',
     fDelta := 4.187,
     nEncoderCount:= 672747
 );
-fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States.Si],
+fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States_1D.Si],
     sName:='Si',
     sPmpsState:='MR4K4:KBO-Si',
     fDelta := 3.65,
-    nEncoderCount:= 43221111
+    nEncoderCount:= 4322111
 );
 fbMR4K4_Coating_States(
     stMotionStage:=Main.M17,
@@ -150,18 +155,17 @@ fbMR4K4_Coating_States(
     fbFFHWO:=GVL_PMPS.g_FastFaultOutput2,
     bEnableMotion:=TRUE,
     bEnableBeamParams:=TRUE,
-    bEnablePositionLimits:=TRUE,
     sDeviceName:='MR4K4:KBO',
     sTransitionKey:= 'MR4K4:KBO-TRANSITION');
 
 fbMR5K4YSetup(stPositionState:= fbMR5K4Default, bSetDefault :=TRUE);
-fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States.B4C],
+fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States_1D.B4C],
     sName:='B4C',
     sPmpsState:='MR5K4:KBO-B4C',
     fDelta := 7.85,
     nEncoderCount:= 6785425
 );
-fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States.Si],
+fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States_1D.Si],
     sName:='Si',
     sPmpsState:='MR4K4:KBO-Si',
     fDelta := 3.55,
@@ -176,7 +180,6 @@ fbMR5K4_Coating_States(
     fbFFHWO:=GVL_PMPS.g_FastFaultOutput2,
     bEnableMotion:=TRUE,
     bEnableBeamParams:=TRUE,
-    bEnablePositionLimits:=TRUE,
     sDeviceName:='MR5K4:KBO',
     sTransitionKey:= 'MR5K4:KBO-TRANSITION');
 ]]></ST>

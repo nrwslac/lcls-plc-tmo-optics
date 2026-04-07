@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <DUT Name="ENUM_Si_B4C_Coating_States_1D" Id="{e4b29de5-14be-4f17-844f-a37bd25107f2}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE ENUM_Si_B4C_Coating_States_1D :
+(
+     Unknown := 0,
+    Si := 1,
+    B4C := 2
+)UINT;
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -24,7 +24,7 @@ VAR
 
 
     {attribute 'pytmc' := '
-     pv: MR4K4:KBO:COATING;
+     pv: MR4K4:KBO:COATING
      io: io
     '}
     fbMR4K4_Coating_States: FB_PositionStatePMPS1D;
@@ -50,7 +50,7 @@ VAR
     aMR4K4CoatingStatesX: ARRAY[1..GeneralConstants.MAX_STATES] OF ST_PositionState;
 
     {attribute 'pytmc' := '
-     pv: MR5K4:KBO:COATING:STATE;
+     pv: MR5K4:KBO:COATING
      io: io
     '}
     fbMR5K4_Coating_States: FB_PositionStatePMPS1D;
@@ -138,7 +138,7 @@ fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States_1
     sName:='B4C',
     sPmpsState:='MR4K4:KBO-B4C',
     fDelta := 4.187,
-    nEncoderCount:= 672747
+    nEncoderCount:= 6727471
 );
 fbMR4K4XSetup(stPositionState:=aMR4K4CoatingStatesX[ENUM_Si_B4C_Coating_States_1D.Si],
     sName:='Si',

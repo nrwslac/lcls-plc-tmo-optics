@@ -167,7 +167,7 @@ fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States_1
 );
 fbMR5K4YSetup(stPositionState:=aMR5K4CoatingStatesY[ENUM_Si_B4C_Coating_States_1D.Si],
     sName:='Si',
-    sPmpsState:='MR4K4:KBO-SILICON',
+    sPmpsState:='MR5K4:KBO-SILICON',
     fDelta := 3.55,
     nEncoderCount:= 4265000
 );

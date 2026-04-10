@@ -151,10 +151,22 @@
     <PlaceholderReference Include="lcls-twincat-common-components">
       <DefaultResolution>lcls-twincat-common-components, * (SLAC)</DefaultResolution>
       <Namespace>lcls_twincat_common_components</Namespace>
+      <Parameters>
+        <Parameter LibraryName="#PMPS" ListName="PMPS_PARAM" xmlns="">
+          <Key>MAX_FAST_FAULTS</Key>
+          <Value>70</Value>
+        </Parameter>
+      </Parameters>
     </PlaceholderReference>
     <PlaceholderReference Include="lcls-twincat-optics">
       <DefaultResolution>lcls-twincat-optics, * (SLAC)</DefaultResolution>
       <Namespace>lcls_twincat_optics</Namespace>
+      <Parameters>
+        <Parameter LibraryName="#PMPS" ListName="PMPS_PARAM" xmlns="">
+          <Key>MAX_FAST_FAULTS</Key>
+          <Value>70</Value>
+        </Parameter>
+      </Parameters>
     </PlaceholderReference>
     <PlaceholderReference Include="Tc2_MC2">
       <DefaultResolution>Tc2_MC2, * (Beckhoff Automation GmbH)</DefaultResolution>
@@ -188,6 +200,12 @@
   <ItemGroup>
     <LibraryReference Include="lcls-twincat-motion,4.4.0,SLAC">
       <Namespace>lcls_twincat_motion</Namespace>
+      <Parameters>
+        <Parameter LibraryName="#PMPS" ListName="PMPS_PARAM" xmlns="">
+          <Key>MAX_FAST_FAULTS</Key>
+          <Value>70</Value>
+        </Parameter>
+      </Parameters>
     </LibraryReference>
     <LibraryReference Include="PMPS,3.4.1,SLAC - LCLS">
       <Namespace>PMPS</Namespace>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance2" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{6394D4BC-ACE8-1ED0-F31B-6EFFF4EB30C9}" GeneratedBy="TwinCAT XAE Plc">
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance2" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{309FB646-266F-2A4D-0826-315C02874E31}" GeneratedBy="TwinCAT XAE Plc">
   <DataTypes>
     <DataType>
       <Name Namespace="Tc2_SerialCom">ComSerialLineMode_t</Name>
@@ -3489,32 +3489,32 @@
         <Name>bBusy</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>163745848</GetCodeOffs>
+        <GetCodeOffs>163835008</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>bError</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>163745920</GetCodeOffs>
+        <GetCodeOffs>163835080</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>hrErrorCode</Name>
         <Type GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163745936</GetCodeOffs>
+        <GetCodeOffs>163835096</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nStringSize</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163745896</GetCodeOffs>
+        <GetCodeOffs>163835056</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sResult</Name>
         <Type>STRING(255)</Type>
         <Comment> result [UTF-8 STRING]</Comment>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>163745928</GetCodeOffs>
+        <GetCodeOffs>163835088</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -3661,7 +3661,7 @@
         </Property>
         <Property>
           <Name>VTableOffset</Name>
-          <Value>163722008</Value>
+          <Value>163811168</Value>
         </Property>
         <Property>
           <Name>VfInitVTableIndex</Name>
@@ -4963,15 +4963,15 @@
         <Name>nSourceId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163745512</GetCodeOffs>
-        <SetCodeOffs>163745664</SetCodeOffs>
+        <GetCodeOffs>163834672</GetCodeOffs>
+        <SetCodeOffs>163834824</SetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sSourceName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>163745640</GetCodeOffs>
-        <SetCodeOffs>163745600</SetCodeOffs>
+        <GetCodeOffs>163834800</GetCodeOffs>
+        <SetCodeOffs>163834760</SetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -5407,15 +5407,15 @@
         <Name>nId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163745736</GetCodeOffs>
-        <SetCodeOffs>163745784</SetCodeOffs>
+        <GetCodeOffs>163834896</GetCodeOffs>
+        <SetCodeOffs>163834944</SetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>163745808</GetCodeOffs>
-        <SetCodeOffs>163745832</SetCodeOffs>
+        <GetCodeOffs>163834968</GetCodeOffs>
+        <SetCodeOffs>163834992</SetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -5695,31 +5695,31 @@
         <Name>eSeverity</Name>
         <Type GUID="{B57D3F4A-0836-49B0-81C3-BED5F4817EC9}">TcEventSeverity</Type>
         <BitSize>16</BitSize>
-        <GetCodeOffs>163746032</GetCodeOffs>
+        <GetCodeOffs>163835192</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>ipSourceInfo</Name>
         <Type Namespace="LCLS_General.Tc3_EventLogger">I_TcSourceInfo</Type>
         <BitSize>64</BitSize>
-        <GetCodeOffs>163745992</GetCodeOffs>
+        <GetCodeOffs>163835152</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nEventId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163746168</GetCodeOffs>
+        <GetCodeOffs>163835328</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nUniqueId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163746176</GetCodeOffs>
+        <GetCodeOffs>163835336</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sEventClassName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>163746088</GetCodeOffs>
+        <GetCodeOffs>163835248</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -5731,7 +5731,7 @@
         <Name>sEventText</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>163746184</GetCodeOffs>
+        <GetCodeOffs>163835344</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -6329,7 +6329,7 @@
         <Name>nTimeSent</Name>
         <Type>ULINT</Type>
         <BitSize>64</BitSize>
-        <GetCodeOffs>163746232</GetCodeOffs>
+        <GetCodeOffs>163835392</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcDisplayTypeGUID</Name>
@@ -7758,7 +7758,7 @@
       </Properties>
     </DataType>
     <DataType>
-      <Name>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Name>
+      <Name>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Name>
       <BitSize>16</BitSize>
       <BaseType>UINT</BaseType>
       <Properties>
@@ -7773,7 +7773,7 @@
       </Properties>
     </DataType>
     <DataType>
-      <Name>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
+      <Name>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
       <BitSize>16</BitSize>
       <BaseType>UINT</BaseType>
       <Properties>
@@ -7801,7 +7801,7 @@
       </SubItem>
       <SubItem>
         <Name>StoringTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <Comment> Misc variables</Comment>
         <BitSize>16</BitSize>
         <BitOffs>629376256</BitOffs>
@@ -7826,7 +7826,7 @@
       </SubItem>
       <SubItem>
         <Name>NumberOfTestsToAnalyse</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
         <BitSize>16</BitSize>
         <BitOffs>629376464</BitOffs>
       </SubItem>
@@ -7878,7 +7878,7 @@
       </SubItem>
       <SubItem>
         <Name>PrintingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>192</BitOffs>
       </SubItem>
@@ -7916,12 +7916,12 @@
         </Local>
         <Local>
           <Name>TestsInTestSuiteCounter</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
           <Name>MaxNumberOfTestsToPrint</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -8820,7 +8820,7 @@
       </SubItem>
       <SubItem>
         <Name>WritingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>530752</BitOffs>
       </SubItem>
@@ -9255,6 +9255,21 @@
         <Property>
           <Name>PouType</Name>
           <Value>FunctionBlock</Value>
+        </Property>
+      </Properties>
+    </DataType>
+    <DataType>
+      <Name>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
+      <BitSize>16</BitSize>
+      <BaseType>UINT</BaseType>
+      <Properties>
+        <Property>
+          <Name>LowerBorder</Name>
+          <Value>1</Value>
+        </Property>
+        <Property>
+          <Name>UpperBorder</Name>
+          <Value>100</Value>
         </Property>
       </Properties>
     </DataType>
@@ -11463,7 +11478,7 @@
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -13015,7 +13030,7 @@
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -13168,7 +13183,7 @@
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -13826,7 +13841,7 @@
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -14307,7 +14322,7 @@
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -14683,7 +14698,7 @@
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -15158,21 +15173,6 @@
         </Property>
         <Property>
           <Name>conditionalshow_all_locals</Name>
-        </Property>
-      </Properties>
-    </DataType>
-    <DataType>
-      <Name>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
-      <BitSize>16</BitSize>
-      <BaseType>UINT</BaseType>
-      <Properties>
-        <Property>
-          <Name>LowerBorder</Name>
-          <Value>1</Value>
-        </Property>
-        <Property>
-          <Name>UpperBorder</Name>
-          <Value>100</Value>
         </Property>
       </Properties>
     </DataType>
@@ -24914,6 +24914,21 @@ contributing fast faults, unless the FFO is currently vetoed.
       </Properties>
     </DataType>
     <DataType>
+      <Name>USINT (USINT#1..255)</Name>
+      <BitSize>8</BitSize>
+      <BaseType>USINT</BaseType>
+      <Properties>
+        <Property>
+          <Name>LowerBorder</Name>
+          <Value>1</Value>
+        </Property>
+        <Property>
+          <Name>UpperBorder</Name>
+          <Value>255</Value>
+        </Property>
+      </Properties>
+    </DataType>
+    <DataType>
       <Name Namespace="lcls_twincat_common_components.lcls_twincat_motion.Tc3_IPCDiag">E_IPCDiag_Datatype</Name>
       <Comment> parameter datatype 1..15</Comment>
       <BitSize>8</BitSize>
@@ -25331,14 +25346,14 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type>BOOL</Type>
         <Comment> is TRUE if a buffer is available.</Comment>
         <BitSize>8</BitSize>
-        <GetCodeOffs>163752752</GetCodeOffs>
+        <GetCodeOffs>163841912</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nBufferSize</Name>
         <Type>UDINT</Type>
         <Comment> current buffer size in bytes.</Comment>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163752656</GetCodeOffs>
+        <GetCodeOffs>163841816</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name RpcEnable="plc" VTableIndex="3">__getnBufferSize</Name>
@@ -26434,7 +26449,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type Namespace="lcls_twincat_common_components.lcls_twincat_motion.Tc3_IPCDiag.Tc3_DynamicMemory">I_DynMem_Manager</Type>
         <Comment> dynamic memory manager used in the Tc3_IPCDiag library</Comment>
         <BitSize>64</BitSize>
-        <GetCodeOffs>163752904</GetCodeOffs>
+        <GetCodeOffs>163842064</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name>GetParameterByIdx</Name>
@@ -26577,7 +26592,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Parameter>
         <Local>
           <Name>nParameterIdx</Name>
-          <Type>USINT (1..255)</Type>
+          <Type>USINT (USINT#1..255)</Type>
           <BitSize>8</BitSize>
         </Local>
         <Local>
@@ -27150,7 +27165,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type Namespace="lcls_twincat_common_components.lcls_twincat_motion.Tc3_IPCDiag.Tc3_DynamicMemory">I_DynMem_Manager</Type>
         <Comment> dynamic memory manager used in the Tc3_IPCDiag library</Comment>
         <BitSize>64</BitSize>
-        <GetCodeOffs>163753016</GetCodeOffs>
+        <GetCodeOffs>163842176</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name>Clear</Name>
@@ -30398,7 +30413,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>StoringTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <Comment> Misc variables </Comment>
         <BitSize>16</BitSize>
         <BitOffs>621296192</BitOffs>
@@ -30423,7 +30438,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>NumberOfTestsToAnalyse</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>621296400</BitOffs>
       </SubItem>
@@ -30475,7 +30490,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>PrintingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>192</BitOffs>
       </SubItem>
@@ -30513,12 +30528,12 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>TestsInTestSuiteCounter</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
           <Name>MaxNumberOfTestsToPrint</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -31382,7 +31397,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>WritingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>530752</BitOffs>
       </SubItem>
@@ -33422,7 +33437,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -35027,7 +35042,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -35652,7 +35667,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -36130,7 +36145,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -36514,7 +36529,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -71200,7 +71215,7 @@ External Setpoint Generation:
         <Name>nTimestamp</Name>
         <Type>ULINT</Type>
         <BitSize>64</BitSize>
-        <GetCodeOffs>163759792</GetCodeOffs>
+        <GetCodeOffs>163848952</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcDisplayTypeGUID</Name>
@@ -71707,7 +71722,7 @@ External Setpoint Generation:
         </Property>
         <Property>
           <Name>VTableOffset</Name>
-          <Value>163737648</Value>
+          <Value>163826808</Value>
         </Property>
         <Property>
           <Name>VfInitVTableIndex</Name>
@@ -73147,32 +73162,32 @@ External Setpoint Generation:
         <Name>bBusy</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>163758904</GetCodeOffs>
+        <GetCodeOffs>163848064</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>bError</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>163758992</GetCodeOffs>
+        <GetCodeOffs>163848152</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>hrErrorCode</Name>
         <Type GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163758920</GetCodeOffs>
+        <GetCodeOffs>163848080</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nStringSize</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>163758968</GetCodeOffs>
+        <GetCodeOffs>163848128</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sEventText</Name>
         <Type>STRING(255)</Type>
         <Comment> event text [UTF-8 STRING]</Comment>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>163759008</GetCodeOffs>
+        <GetCodeOffs>163848168</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -94963,6 +94978,11 @@ MR2K4 X ENC CNT</Comment>
         <BitSize>8</BitSize>
       </SubItem>
       <SubItem>
+        <Name Static="true">bST4K4_IN</Name>
+        <Type>BOOL</Type>
+        <BitSize>8</BitSize>
+      </SubItem>
+      <SubItem>
         <Name Static="true">fb_vetoArbiter</Name>
         <Type Namespace="PMPS">FB_VetoArbiter</Type>
         <BitSize>28352</BitSize>
@@ -94996,33 +95016,32 @@ MR2K4 X ENC CNT</Comment>
         </Default>
       </SubItem>
       <SubItem>
-        <Name Static="true">bST4K4_IN</Name>
-        <Type>BOOL</Type>
-        <BitSize>8</BitSize>
+        <Name Static="true">ffFFO3ToFFO1</Name>
+        <Type Namespace="PMPS">FB_FastFault</Type>
+        <Comment>adding FFO3 for dream mirror so that we can veto dream mirror by ST4K4</Comment>
+        <BitSize>25920</BitSize>
+        <Default>
+          <SubItem>
+            <Name>.i_xAutoReset</Name>
+            <Bool>true</Bool>
+          </SubItem>
+          <SubItem>
+            <Name>.i_DevName</Name>
+            <String>PMPS FFO3</String>
+          </SubItem>
+          <SubItem>
+            <Name>.i_Desc</Name>
+            <String>Subordinate fast fault group, will clear on its own otherwise something is misconfigured in the diagnostic</String>
+          </SubItem>
+          <SubItem>
+            <Name>.i_TypeCode</Name>
+            <Value>13</Value>
+          </SubItem>
+        </Default>
       </SubItem>
     </DataType>
     <DataType>
       <Name>PRG_MR1K4_SOMS</Name>
-      <SubItem>
-        <Name Static="true">bActivateVarCool</Name>
-        <Type>BOOL</Type>
-        <BitSize>8</BitSize>
-        <Properties>
-          <Property>
-            <Name>TcLinkTo</Name>
-            <Value>TIIB[EP2008-0001_M1K4_VCV]^Channel 1^Output</Value>
-          </Property>
-          <Property>
-            <Name>pytmc</Name>
-            <Value>
-        pv: MR1K4:SOMS:VCV
-        io: io
-        field: ZNAM OFF
-        field: ONAM ON
-    </Value>
-          </Property>
-        </Properties>
-      </SubItem>
       <SubItem>
         <Name Static="true">fbCoolingPanel</Name>
         <Type Namespace="lcls_twincat_optics">FB_Axilon_Cooling_2f1p</Type>
@@ -95040,6 +95059,26 @@ MR2K4 X ENC CNT</Comment>
             <Name>pytmc</Name>
             <Value>
         pv: MR1K4:SOMS
+    </Value>
+          </Property>
+        </Properties>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">bActivateVarCool</Name>
+        <Type>BOOL</Type>
+        <BitSize>8</BitSize>
+        <Properties>
+          <Property>
+            <Name>TcLinkTo</Name>
+            <Value>TIIB[EP2008-0001_M1K4_VCV]^Channel 1^Output</Value>
+          </Property>
+          <Property>
+            <Name>pytmc</Name>
+            <Value>
+        pv: MR1K4:SOMS:VCV
+        io: io
+        field: ZNAM OFF
+        field: ONAM ON
     </Value>
           </Property>
         </Properties>
@@ -95230,19 +95269,6 @@ MR2K4 X ENC CNT</Comment>
     <DataType>
       <Name>PRG_SL2K4_SCATTER</Name>
       <SubItem>
-        <Name Static="true">fbSL2K4</Name>
-        <Type>FB_SLITS</Type>
-        <BitSize>1512704</BitSize>
-        <Properties>
-          <Property>
-            <Name>pytmc</Name>
-            <Value>
-    pv: SL2K4:SCATTER
-    io: io</Value>
-          </Property>
-        </Properties>
-      </SubItem>
-      <SubItem>
         <Name Static="true">bExecuteMotion</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
@@ -95258,6 +95284,19 @@ MR2K4 X ENC CNT</Comment>
     field: ZNAM False;
     field: ONAM True;
     </Value>
+          </Property>
+        </Properties>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">fbSL2K4</Name>
+        <Type>FB_SLITS</Type>
+        <BitSize>1512704</BitSize>
+        <Properties>
+          <Property>
+            <Name>pytmc</Name>
+            <Value>
+    pv: SL2K4:SCATTER
+    io: io</Value>
           </Property>
         </Properties>
       </SubItem>
@@ -95940,6 +95979,30 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
         </Properties>
       </SubItem>
       <SubItem>
+        <Name Static="true">g_FastFaultOutput3</Name>
+        <Type Namespace="PMPS">FB_HardwareFFOutput</Type>
+        <Comment>FFO for devices downstream of ST4K4</Comment>
+        <BitSize>687296</BitSize>
+        <Default>
+          <SubItem>
+            <Name>.bAutoReset</Name>
+            <Bool>true</Bool>
+          </SubItem>
+          <SubItem>
+            <Name>.i_sNetID</Name>
+            <String>172.21.92.73.1.1</String>
+          </SubItem>
+        </Default>
+        <Properties>
+          <Property>
+            <Name>pytmc</Name>
+            <Value>
+        pv: PLC:TMO:OPTICS:FFO:03
+    </Value>
+          </Property>
+        </Properties>
+      </SubItem>
+      <SubItem>
         <Name Static="true">g_fbArbiter1</Name>
         <Type Namespace="PMPS">FB_Arbiter</Type>
         <Comment> Arbiter for devices upstream of ST1K4 (M1K4)</Comment>
@@ -96072,7 +96135,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309720064</BitOffs>
+            <BitOffs>1310433280</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
@@ -96089,7 +96152,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309720256</BitOffs>
+            <BitOffs>1310433472</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
@@ -96113,7 +96176,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309710208</BitOffs>
+            <BitOffs>1307367568</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_COM_Buffers.Serial_TXBuffer_M1K4</Name>
@@ -96124,7 +96187,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309712720</BitOffs>
+            <BitOffs>1307370080</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskPouOid_SerialIO</Name>
@@ -96138,7 +96201,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309721760</BitOffs>
+            <BitOffs>1310434976</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._AppInfo</Name>
@@ -96152,7 +96215,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309721792</BitOffs>
+            <BitOffs>1310435008</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskOid_SerialIO</Name>
@@ -96166,7 +96229,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309726912</BitOffs>
+            <BitOffs>1310440128</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList.__SerialIO</Name>
@@ -96187,7 +96250,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309727104</BitOffs>
+            <BitOffs>1310440320</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
@@ -96234,7 +96297,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309715264</BitOffs>
+            <BitOffs>1307372608</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskPouOid_PiezoDriver</Name>
@@ -96248,7 +96311,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309726944</BitOffs>
+            <BitOffs>1310440160</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskOid_PiezoDriver</Name>
@@ -96262,7 +96325,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309726976</BitOffs>
+            <BitOffs>1310440192</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList.__PiezoDriver</Name>
@@ -96283,7 +96346,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309728000</BitOffs>
+            <BitOffs>1310441216</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
@@ -99213,35 +99276,52 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303837952</BitOffs>
+            <BitOffs>1303863872</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1K4_SOMS.fbCoolingPanel.fbPress_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303838464</BitOffs>
+            <BitOffs>1303864384</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1K4_SOMS.fbCoolingPanel.fbFlow_2.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303839040</BitOffs>
+            <BitOffs>1303864960</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M2K4_RTD.nM2K4US_RTD_1</Name>
+            <Comment> M2K4 BENDER RTDs
+ M2K4 US RTDs</Comment>
+            <BitSize>16</BitSize>
+            <BaseType>INT</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>TIIB[EL3202-0010_M2K4US1_M2K4US2]^RTD Inputs Channel 1^Value</Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1303865456</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbCoolingPanel.fbFlow_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303839744</BitOffs>
+            <BitOffs>1303865728</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbCoolingPanel.fbPress_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303840256</BitOffs>
+            <BitOffs>1303866240</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Left_RTD.bError</Name>
@@ -99261,25 +99341,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303840904</BitOffs>
+            <BitOffs>1303866888</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Left_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303840912</BitOffs>
+            <BitOffs>1303866896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Left_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303840920</BitOffs>
+            <BitOffs>1303866904</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Left_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1303840928</BitOffs>
+            <BitOffs>1303866912</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Right_RTD.bError</Name>
@@ -99299,39 +99379,39 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303841160</BitOffs>
+            <BitOffs>1303867144</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Right_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303841168</BitOffs>
+            <BitOffs>1303867152</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Right_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303841176</BitOffs>
+            <BitOffs>1303867160</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Right_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1303841184</BitOffs>
+            <BitOffs>1303867168</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbCoolingPanel.fbFlow_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303841472</BitOffs>
+            <BitOffs>1303867456</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbCoolingPanel.fbPress_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303841984</BitOffs>
+            <BitOffs>1303867968</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Left_RTD.bError</Name>
@@ -99351,25 +99431,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303842632</BitOffs>
+            <BitOffs>1303868616</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Left_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303842640</BitOffs>
+            <BitOffs>1303868624</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Left_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303842648</BitOffs>
+            <BitOffs>1303868632</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Left_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1303842656</BitOffs>
+            <BitOffs>1303868640</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Right_RTD.bError</Name>
@@ -99389,100 +99469,83 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303842888</BitOffs>
+            <BitOffs>1303868872</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Right_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303842896</BitOffs>
+            <BitOffs>1303868880</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Right_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1303842904</BitOffs>
+            <BitOffs>1303868888</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Right_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1303842912</BitOffs>
+            <BitOffs>1303868896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR4K4_KBO.fbCoolingPanel.fbFlow_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303843200</BitOffs>
+            <BitOffs>1303869184</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR4K4_KBO.fbCoolingPanel.fbPress_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303843712</BitOffs>
+            <BitOffs>1303869696</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR5K4_KBO.fbCoolingPanel.fbFlow_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303844416</BitOffs>
+            <BitOffs>1303870400</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR5K4_KBO.fbCoolingPanel.fbPress_1.iRaw</Name>
             <Comment> Connect this input to the terminal</Comment>
             <BitSize>32</BitSize>
             <BaseType>DINT</BaseType>
-            <BitOffs>1303844928</BitOffs>
+            <BitOffs>1303870912</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbTopBlade.fbDriveVirtual.MasterAxis.NcToPlc</Name>
             <BitSize>2048</BitSize>
             <BaseType GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</BaseType>
-            <BitOffs>1303850688</BitOffs>
+            <BitOffs>1303876672</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbBottomBlade.fbDriveVirtual.MasterAxis.NcToPlc</Name>
             <BitSize>2048</BitSize>
             <BaseType GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</BaseType>
-            <BitOffs>1304188800</BitOffs>
+            <BitOffs>1304214784</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbNorthBlade.fbDriveVirtual.MasterAxis.NcToPlc</Name>
             <BitSize>2048</BitSize>
             <BaseType GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</BaseType>
-            <BitOffs>1304526912</BitOffs>
+            <BitOffs>1304552896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbSouthBlade.fbDriveVirtual.MasterAxis.NcToPlc</Name>
             <BitSize>2048</BitSize>
             <BaseType GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</BaseType>
-            <BitOffs>1304865024</BitOffs>
+            <BitOffs>1304891008</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.AptArrayReq</Name>
             <BitSize>96</BitSize>
             <BaseType GUID="{67AC048F-B785-4A4D-B941-B11E2213F502}">ST_PMPS_Aperture_IO</BaseType>
-            <BitOffs>1305359168</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M2K4_RTD.nM2K4US_RTD_1</Name>
-            <Comment> M2K4 BENDER RTDs
- M2K4 US RTDs</Comment>
-            <BitSize>16</BitSize>
-            <BaseType>INT</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>TIIB[EL3202-0010_M2K4US1_M2K4US2]^RTD Inputs Channel 1^Value</Value>
-              </Property>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1305359472</BitOffs>
+            <BitOffs>1305385152</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingLTemp.bError</Name>
@@ -99502,25 +99565,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1305441032</BitOffs>
+            <BitOffs>1305466952</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingLTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305441040</BitOffs>
+            <BitOffs>1305466960</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingLTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305441048</BitOffs>
+            <BitOffs>1305466968</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingLTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1305441056</BitOffs>
+            <BitOffs>1305466976</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingRTemp.bError</Name>
@@ -99540,25 +99603,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1305555656</BitOffs>
+            <BitOffs>1305581576</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingRTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305555664</BitOffs>
+            <BitOffs>1305581584</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingRTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305555672</BitOffs>
+            <BitOffs>1305581592</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingRTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1305555680</BitOffs>
+            <BitOffs>1305581600</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingLTemp.bError</Name>
@@ -99578,25 +99641,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1305670280</BitOffs>
+            <BitOffs>1305696200</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingLTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305670288</BitOffs>
+            <BitOffs>1305696208</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingLTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305670296</BitOffs>
+            <BitOffs>1305696216</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingLTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1305670304</BitOffs>
+            <BitOffs>1305696224</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingRTemp.bError</Name>
@@ -99616,25 +99679,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1305784904</BitOffs>
+            <BitOffs>1305810824</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingRTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305784912</BitOffs>
+            <BitOffs>1305810832</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingRTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1305784920</BitOffs>
+            <BitOffs>1305810840</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4.ffLowerCoatingRTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1305784928</BitOffs>
+            <BitOffs>1305810848</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingLTemp.bError</Name>
@@ -99654,25 +99717,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306101192</BitOffs>
+            <BitOffs>1306127112</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingLTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306101200</BitOffs>
+            <BitOffs>1306127120</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingLTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306101208</BitOffs>
+            <BitOffs>1306127128</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingLTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1306101216</BitOffs>
+            <BitOffs>1306127136</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingRTemp.bError</Name>
@@ -99692,25 +99755,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306215816</BitOffs>
+            <BitOffs>1306241736</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingRTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306215824</BitOffs>
+            <BitOffs>1306241744</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingRTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306215832</BitOffs>
+            <BitOffs>1306241752</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffUpperCoatingRTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1306215840</BitOffs>
+            <BitOffs>1306241760</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingLTemp.bError</Name>
@@ -99730,25 +99793,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306330440</BitOffs>
+            <BitOffs>1306356360</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingLTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306330448</BitOffs>
+            <BitOffs>1306356368</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingLTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306330456</BitOffs>
+            <BitOffs>1306356376</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingLTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1306330464</BitOffs>
+            <BitOffs>1306356384</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingRTemp.bError</Name>
@@ -99768,25 +99831,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306445064</BitOffs>
+            <BitOffs>1306470984</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingRTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306445072</BitOffs>
+            <BitOffs>1306470992</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingRTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306445080</BitOffs>
+            <BitOffs>1306471000</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4.ffLowerCoatingRTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1306445088</BitOffs>
+            <BitOffs>1306471008</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingLTemp.bError</Name>
@@ -99806,25 +99869,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306761352</BitOffs>
+            <BitOffs>1306787272</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingLTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306761360</BitOffs>
+            <BitOffs>1306787280</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingLTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306761368</BitOffs>
+            <BitOffs>1306787288</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingLTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1306761376</BitOffs>
+            <BitOffs>1306787296</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingRTemp.bError</Name>
@@ -99844,25 +99907,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306875976</BitOffs>
+            <BitOffs>1306901896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingRTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306875984</BitOffs>
+            <BitOffs>1306901904</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingRTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306875992</BitOffs>
+            <BitOffs>1306901912</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffUpperCoatingRTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1306876000</BitOffs>
+            <BitOffs>1306901920</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingLTemp.bError</Name>
@@ -99882,25 +99945,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306990600</BitOffs>
+            <BitOffs>1307016520</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingLTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306990608</BitOffs>
+            <BitOffs>1307016528</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingLTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1306990616</BitOffs>
+            <BitOffs>1307016536</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingLTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1306990624</BitOffs>
+            <BitOffs>1307016544</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingRTemp.bError</Name>
@@ -99920,25 +99983,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1307105224</BitOffs>
+            <BitOffs>1307131144</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingRTemp.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1307105232</BitOffs>
+            <BitOffs>1307131152</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingRTemp.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1307105240</BitOffs>
+            <BitOffs>1307131160</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4.ffLowerCoatingRTemp.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1307105248</BitOffs>
+            <BitOffs>1307131168</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2K4_RTD.nM2K4US_RTD_3</Name>
@@ -99953,7 +100016,14 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1307341648</BitOffs>
+            <BitOffs>1307372592</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M1K4.M1K4_Pitch.diEncCnt</Name>
+            <Comment>Raw encoder count</Comment>
+            <BitSize>64</BitSize>
+            <BaseType>LINT</BaseType>
+            <BitOffs>1307375104</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2K4_RTD.nM2K4DS_RTD_1</Name>
@@ -99969,7 +100039,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1307341664</BitOffs>
+            <BitOffs>1307375424</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2K4_RTD.nM2K4DS_RTD_3</Name>
@@ -99984,7 +100054,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1307341680</BitOffs>
+            <BitOffs>1307375440</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M3K4_RTD.nM3K4US_RTD_1</Name>
@@ -100001,7 +100071,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309715232</BitOffs>
+            <BitOffs>1307375456</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M3K4_RTD.nM3K4US_RTD_3</Name>
@@ -100016,14 +100086,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309715248</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M1K4.M1K4_Pitch.diEncCnt</Name>
-            <Comment>Raw encoder count</Comment>
-            <BitSize>64</BitSize>
-            <BaseType>LINT</BaseType>
-            <BitOffs>1309717760</BitOffs>
+            <BitOffs>1307375472</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M3K4_RTD.nM3K4DS_RTD_1</Name>
@@ -100039,7 +100102,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309718464</BitOffs>
+            <BitOffs>1307375680</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M3K4_RTD.nM3K4DS_RTD_3</Name>
@@ -100054,7 +100117,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309718480</BitOffs>
+            <BitOffs>1307375696</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Left_RTD.bError</Name>
@@ -100074,25 +100137,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1309718728</BitOffs>
+            <BitOffs>1307376136</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Left_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309718736</BitOffs>
+            <BitOffs>1307376144</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Left_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309718744</BitOffs>
+            <BitOffs>1307376152</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Left_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1309718752</BitOffs>
+            <BitOffs>1307376160</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Right_RTD.bError</Name>
@@ -100112,25 +100175,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1309718984</BitOffs>
+            <BitOffs>1307376392</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Right_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309718992</BitOffs>
+            <BitOffs>1307376400</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Right_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309719000</BitOffs>
+            <BitOffs>1307376408</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Right_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1309719008</BitOffs>
+            <BitOffs>1307376416</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Tail_RTD.bError</Name>
@@ -100150,25 +100213,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1309719240</BitOffs>
+            <BitOffs>1307376648</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Tail_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309719248</BitOffs>
+            <BitOffs>1307376656</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Tail_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309719256</BitOffs>
+            <BitOffs>1307376664</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M4K4_RTD.nM4K4_Chin_Tail_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1309719264</BitOffs>
+            <BitOffs>1307376672</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Left_RTD.bError</Name>
@@ -100188,25 +100251,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1309719496</BitOffs>
+            <BitOffs>1307376904</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Left_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309719504</BitOffs>
+            <BitOffs>1307376912</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Left_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309719512</BitOffs>
+            <BitOffs>1307376920</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Left_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1309719520</BitOffs>
+            <BitOffs>1307376928</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Right_RTD.bError</Name>
@@ -100226,25 +100289,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1309719752</BitOffs>
+            <BitOffs>1307377160</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Right_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309719760</BitOffs>
+            <BitOffs>1307377168</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Right_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309719768</BitOffs>
+            <BitOffs>1307377176</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Right_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1309719776</BitOffs>
+            <BitOffs>1307377184</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Tail_RTD.bError</Name>
@@ -100264,25 +100327,25 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1309720008</BitOffs>
+            <BitOffs>1307377416</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Tail_RTD.bUnderrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309720016</BitOffs>
+            <BitOffs>1307377424</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Tail_RTD.bOverrange</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <BitOffs>1309720024</BitOffs>
+            <BitOffs>1307377432</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M5K4_RTD.nM5K4_Chin_Tail_RTD.iRaw</Name>
             <BitSize>16</BitSize>
             <BaseType>INT</BaseType>
-            <BitOffs>1309720032</BitOffs>
+            <BitOffs>1307377440</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
@@ -100930,6 +100993,18 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
             <BitOffs>1303298136</BitOffs>
           </Symbol>
           <Symbol>
+            <Name>PRG_PMPS.fbArbiterIO.q_stRequestedBP</Name>
+            <BitSize>1760</BitSize>
+            <BaseType GUID="{292CD354-C7C0-4A61-AAD0-1C85DD69646B}">ST_BeamParams_IO</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>TIIB[PMPS_PRE]^IO Outputs^RequestedBP</Value>
+              </Property>
+            </Properties>
+            <BitOffs>1303666784</BitOffs>
+          </Symbol>
+          <Symbol>
             <Name>PRG_MR1K4_SOMS.bActivateVarCool</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
@@ -100948,49 +101023,37 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303482296</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>PRG_PMPS.fbArbiterIO.q_stRequestedBP</Name>
-            <BitSize>1760</BitSize>
-            <BaseType GUID="{292CD354-C7C0-4A61-AAD0-1C85DD69646B}">ST_BeamParams_IO</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>TIIB[PMPS_PRE]^IO Outputs^RequestedBP</Value>
-              </Property>
-            </Properties>
-            <BitOffs>1303666784</BitOffs>
+            <BitOffs>1303865408</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbTopBlade.fbDriveVirtual.MasterAxis.PlcToNc</Name>
             <BitSize>1024</BitSize>
             <BaseType GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</BaseType>
-            <BitOffs>1303849664</BitOffs>
+            <BitOffs>1303875648</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbBottomBlade.fbDriveVirtual.MasterAxis.PlcToNc</Name>
             <BitSize>1024</BitSize>
             <BaseType GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</BaseType>
-            <BitOffs>1304187776</BitOffs>
+            <BitOffs>1304213760</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbNorthBlade.fbDriveVirtual.MasterAxis.PlcToNc</Name>
             <BitSize>1024</BitSize>
             <BaseType GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</BaseType>
-            <BitOffs>1304525888</BitOffs>
+            <BitOffs>1304551872</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.fbSouthBlade.fbDriveVirtual.MasterAxis.PlcToNc</Name>
             <BitSize>1024</BitSize>
             <BaseType GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</BaseType>
-            <BitOffs>1304864000</BitOffs>
+            <BitOffs>1304889984</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4.AptArrayStatus</Name>
             <BitSize>96</BitSize>
             <BaseType GUID="{67AC048F-B785-4A4D-B941-B11E2213F502}">ST_PMPS_Aperture_IO</BaseType>
-            <BitOffs>1305359072</BitOffs>
+            <BitOffs>1305385056</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput1.q_xFastFaultOut</Name>
@@ -101006,7 +101069,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
      </Value>
               </Property>
             </Properties>
-            <BitOffs>1307341992</BitOffs>
+            <BitOffs>1307377768</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput2.q_xFastFaultOut</Name>
@@ -101022,7 +101085,23 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
      </Value>
               </Property>
             </Properties>
-            <BitOffs>1308029288</BitOffs>
+            <BitOffs>1308065064</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_PMPS.g_FastFaultOutput3.q_xFastFaultOut</Name>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <Properties>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: FaultHWO
+        io: i
+        field: DESC Hardware Output Status
+     </Value>
+              </Property>
+            </Properties>
+            <BitOffs>1308752360</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
@@ -111482,6 +111561,12 @@ MR2K4 X ENC CNT</Comment>
             <BitOffs>1303482288</BitOffs>
           </Symbol>
           <Symbol>
+            <Name>PRG_PMPS.bST4K4_IN</Name>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <BitOffs>1303482296</BitOffs>
+          </Symbol>
+          <Symbol>
             <Name>PRG_States.fbMR5K4YSetup</Name>
             <BitSize>92800</BitSize>
             <BaseType Namespace="lcls_twincat_motion">FB_StateSetupHelper</BaseType>
@@ -111558,6 +111643,31 @@ MR2K4 X ENC CNT</Comment>
             <BitOffs>1303809472</BitOffs>
           </Symbol>
           <Symbol>
+            <Name>PRG_PMPS.ffFFO3ToFFO1</Name>
+            <Comment>adding FFO3 for dream mirror so that we can veto dream mirror by ST4K4</Comment>
+            <BitSize>25920</BitSize>
+            <BaseType Namespace="PMPS">FB_FastFault</BaseType>
+            <Default>
+              <SubItem>
+                <Name>.i_xAutoReset</Name>
+                <Bool>true</Bool>
+              </SubItem>
+              <SubItem>
+                <Name>.i_DevName</Name>
+                <String>PMPS FFO3</String>
+              </SubItem>
+              <SubItem>
+                <Name>.i_Desc</Name>
+                <String>Subordinate fast fault group, will clear on its own otherwise something is misconfigured in the diagnostic</String>
+              </SubItem>
+              <SubItem>
+                <Name>.i_TypeCode</Name>
+                <Value>13</Value>
+              </SubItem>
+            </Default>
+            <BitOffs>1303835392</BitOffs>
+          </Symbol>
+          <Symbol>
             <Name>PRG_MR1K4_SOMS.fbCoolingPanel</Name>
             <Comment> M1K4 Flow Press Sensors</Comment>
             <BitSize>1792</BitSize>
@@ -111577,7 +111687,55 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303837696</BitOffs>
+            <BitOffs>1303863616</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>PRG_SL2K4_SCATTER.bExecuteMotion</Name>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <Default>
+              <Bool>true</Bool>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+    pv: SL2K4:SCATTER:GO;
+    io: io;
+    field: ZNAM False;
+    field: ONAM True;
+    </Value>
+              </Property>
+            </Properties>
+            <BitOffs>1303865416</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>TwinCAT_PreventOnlineChangeGvl.WriteLineIDs</Name>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <Default>
+              <Bool>true</Bool>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1303865424</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>TwinCAT_PreventOnlineChangeGvl.PlcProfilerActive</Name>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <Default>
+              <Bool>false</Bool>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1303865432</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbCoolingPanel</Name>
@@ -111598,7 +111756,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303839488</BitOffs>
+            <BitOffs>1303865472</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Left_RTD</Name>
@@ -111622,7 +111780,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303840704</BitOffs>
+            <BitOffs>1303866688</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2K4_KBO.fbM2K4_Chin_Right_RTD</Name>
@@ -111645,7 +111803,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303840960</BitOffs>
+            <BitOffs>1303866944</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbCoolingPanel</Name>
@@ -111666,7 +111824,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303841216</BitOffs>
+            <BitOffs>1303867200</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Left_RTD</Name>
@@ -111690,7 +111848,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303842432</BitOffs>
+            <BitOffs>1303868416</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR3K4_KBO.fbM3K4_Chin_Right_RTD</Name>
@@ -111713,7 +111871,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303842688</BitOffs>
+            <BitOffs>1303868672</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR4K4_KBO.fbCoolingPanel</Name>
@@ -111734,7 +111892,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303842944</BitOffs>
+            <BitOffs>1303868928</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR5K4_KBO.fbCoolingPanel</Name>
@@ -111755,7 +111913,7 @@ MR2K4 X ENC CNT</Comment>
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1303844160</BitOffs>
+            <BitOffs>1303870144</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_SL2K4_SCATTER.fbSL2K4</Name>
@@ -111769,55 +111927,7 @@ MR2K4 X ENC CNT</Comment>
     io: io</Value>
               </Property>
             </Properties>
-            <BitOffs>1303846720</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>PRG_SL2K4_SCATTER.bExecuteMotion</Name>
-            <BitSize>8</BitSize>
-            <BaseType>BOOL</BaseType>
-            <Default>
-              <Bool>true</Bool>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>pytmc</Name>
-                <Value>
-    pv: SL2K4:SCATTER:GO;
-    io: io;
-    field: ZNAM False;
-    field: ONAM True;
-    </Value>
-              </Property>
-            </Properties>
-            <BitOffs>1305359424</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>TwinCAT_PreventOnlineChangeGvl.WriteLineIDs</Name>
-            <BitSize>8</BitSize>
-            <BaseType>BOOL</BaseType>
-            <Default>
-              <Bool>true</Bool>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1305359432</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>TwinCAT_PreventOnlineChangeGvl.PlcProfilerActive</Name>
-            <BitSize>8</BitSize>
-            <BaseType>BOOL</BaseType>
-            <Default>
-              <Bool>false</Bool>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1305359440</BitOffs>
+            <BitOffs>1303872704</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR1K4</Name>
@@ -111852,7 +111962,7 @@ From M. Seaberg
                 <String>B4C</String>
               </SubItem>
             </Default>
-            <BitOffs>1305360640</BitOffs>
+            <BitOffs>1305386560</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR2K4</Name>
@@ -111918,7 +112028,7 @@ Silicon surface: RBV &gt;= 7776781: 0000_0000_0001_1110 (allow everything below 
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306020800</BitOffs>
+            <BitOffs>1306046720</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_StripeProtections.fbStripProtMR3K4</Name>
@@ -111985,7 +112095,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
     </Value>
               </Property>
             </Properties>
-            <BitOffs>1306680960</BitOffs>
+            <BitOffs>1306706880</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_PreventOnlineChangeGvl.PlcProfilerConfigChecksum</Name>
@@ -111999,7 +112109,308 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1307341120</BitOffs>
+            <BitOffs>1307367040</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M1K4_Constants.nYUP_ENC_REF</Name>
+            <Comment> Encoder reference values in counts = nm</Comment>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>15000270</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375168</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M1K4_Constants.nYDWN_ENC_REF</Name>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>15454300</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375232</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M1K4_Constants.nXUP_ENC_REF</Name>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>24000300</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375296</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M1K4_Constants.nXDWN_ENC_REF</Name>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>23999400</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375360</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M2K4_Constants.nM2K4X_ENC_REF</Name>
+            <Comment> Encoder reference values in counts = nm</Comment>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>5973570</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375488</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M2K4_Constants.nM2K4Y_ENC_REF</Name>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>6099450</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375552</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M2K4_Constants.nM2K4rY_ENC_REF</Name>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>39050722</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375616</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M3K4_Constants.nM3K4X_ENC_REF</Name>
+            <Comment> Encoder reference values in counts = nm</Comment>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>6404509</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375744</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M3K4_Constants.nM3K4Y_ENC_REF</Name>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>6047240</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375808</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M3K4_Constants.nM3K4rX_ENC_REF</Name>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <Default>
+              <Value>48388188</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375872</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M4K4_RTD.nM4K4_Chin_Left_RTD</Name>
+            <Comment> M4K4 RTDs</Comment>
+            <BitSize>256</BitSize>
+            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>.iRaw := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Value;
+                              .bUnderrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Status^Underrange;
+                              .bOverrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Status^Overrange;
+                              .bError := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Status^Error</Value>
+              </Property>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: MR4K4:KBO:RTD:CHIN:L
+        field: EGU C
+        io: i
+    </Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307375936</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M4K4_RTD.nM4K4_Chin_Right_RTD</Name>
+            <BitSize>256</BitSize>
+            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>.iRaw := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Value;
+                              .bUnderrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Status^Underrange;
+                              .bOverrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Status^Overrange;
+                              .bError := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Status^Error</Value>
+              </Property>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: MR4K4:KBO:RTD:CHIN:R
+        field: EGU C
+        io: i
+    </Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307376192</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M4K4_RTD.nM4K4_Chin_Tail_RTD</Name>
+            <BitSize>256</BitSize>
+            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>.iRaw := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Value;
+                              .bUnderrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Status^Underrange;
+                              .bOverrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Status^Overrange;
+                              .bError := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Status^Error</Value>
+              </Property>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: MR4K4:KBO:RTD:TAIL
+        field: EGU C
+        io: i
+    </Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307376448</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M5K4_RTD.nM5K4_Chin_Left_RTD</Name>
+            <Comment> M5K4 RTDs</Comment>
+            <BitSize>256</BitSize>
+            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>.iRaw := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Value;
+                              .bUnderrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Status^Underrange;
+                              .bOverrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Status^Overrange;
+                              .bError := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Status^Error</Value>
+              </Property>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: MR5K4:KBO:RTD:CHIN:L
+        field: EGU C
+        io: i
+    </Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307376704</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M5K4_RTD.nM5K4_Chin_Right_RTD</Name>
+            <BitSize>256</BitSize>
+            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>.iRaw := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Value;
+                              .bUnderrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Status^Underrange;
+                              .bOverrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Status^Overrange;
+                              .bError := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Status^Error</Value>
+              </Property>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: MR5K4:KBO:RTD:CHIN:R
+        field: EGU C
+        io: i
+    </Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307376960</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_M5K4_RTD.nM5K4_Chin_Tail_RTD</Name>
+            <BitSize>256</BitSize>
+            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
+            <Properties>
+              <Property>
+                <Name>TcLinkTo</Name>
+                <Value>.iRaw := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Value;
+                              .bUnderrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Status^Underrange;
+                              .bOverrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Status^Overrange;
+                              .bError := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Status^Error</Value>
+              </Property>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: MR5K4:KBO:RTD:TAIL
+        field: EGU C
+        io: i
+    </Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1307377216</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput1</Name>
@@ -112031,7 +112442,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1307341696</BitOffs>
+            <BitOffs>1307377472</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput2</Name>
@@ -112063,7 +112474,35 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1308028992</BitOffs>
+            <BitOffs>1308064768</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>GVL_PMPS.g_FastFaultOutput3</Name>
+            <Comment>FFO for devices downstream of ST4K4</Comment>
+            <BitSize>687296</BitSize>
+            <BaseType Namespace="PMPS">FB_HardwareFFOutput</BaseType>
+            <Default>
+              <SubItem>
+                <Name>.bAutoReset</Name>
+                <Bool>true</Bool>
+              </SubItem>
+              <SubItem>
+                <Name>.i_sNetID</Name>
+                <String>172.21.92.73.1.1</String>
+              </SubItem>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: PLC:TMO:OPTICS:FFO:03
+    </Value>
+              </Property>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1308752064</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_fbArbiter1</Name>
@@ -112081,7 +112520,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1308716288</BitOffs>
+            <BitOffs>1309439360</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_fbArbiter2</Name>
@@ -112099,308 +112538,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309213248</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M1K4_Constants.nYUP_ENC_REF</Name>
-            <Comment> Encoder reference values in counts = nm</Comment>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>15000270</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309717824</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M1K4_Constants.nYDWN_ENC_REF</Name>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>15454300</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309717888</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M1K4_Constants.nXUP_ENC_REF</Name>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>24000300</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309717952</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M1K4_Constants.nXDWN_ENC_REF</Name>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>23999400</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718016</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M2K4_Constants.nM2K4X_ENC_REF</Name>
-            <Comment> Encoder reference values in counts = nm</Comment>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>5973570</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718080</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M2K4_Constants.nM2K4Y_ENC_REF</Name>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>6099450</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718144</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M2K4_Constants.nM2K4rY_ENC_REF</Name>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>39050722</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718208</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M3K4_Constants.nM3K4X_ENC_REF</Name>
-            <Comment> Encoder reference values in counts = nm</Comment>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>6404509</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718272</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M3K4_Constants.nM3K4Y_ENC_REF</Name>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>6047240</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718336</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M3K4_Constants.nM3K4rX_ENC_REF</Name>
-            <BitSize>64</BitSize>
-            <BaseType>ULINT</BaseType>
-            <Default>
-              <Value>48388188</Value>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718400</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M4K4_RTD.nM4K4_Chin_Left_RTD</Name>
-            <Comment> M4K4 RTDs</Comment>
-            <BitSize>256</BitSize>
-            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>.iRaw := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Value;
-                              .bUnderrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Status^Underrange;
-                              .bOverrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Status^Overrange;
-                              .bError := TIIB[EL3204_M4K4]^RTD Inputs Channel 1^Status^Error</Value>
-              </Property>
-              <Property>
-                <Name>pytmc</Name>
-                <Value>
-        pv: MR4K4:KBO:RTD:CHIN:L
-        field: EGU C
-        io: i
-    </Value>
-              </Property>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718528</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M4K4_RTD.nM4K4_Chin_Right_RTD</Name>
-            <BitSize>256</BitSize>
-            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>.iRaw := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Value;
-                              .bUnderrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Status^Underrange;
-                              .bOverrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Status^Overrange;
-                              .bError := TIIB[EL3204_M4K4]^RTD Inputs Channel 2^Status^Error</Value>
-              </Property>
-              <Property>
-                <Name>pytmc</Name>
-                <Value>
-        pv: MR4K4:KBO:RTD:CHIN:R
-        field: EGU C
-        io: i
-    </Value>
-              </Property>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309718784</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M4K4_RTD.nM4K4_Chin_Tail_RTD</Name>
-            <BitSize>256</BitSize>
-            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>.iRaw := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Value;
-                              .bUnderrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Status^Underrange;
-                              .bOverrange := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Status^Overrange;
-                              .bError := TIIB[EL3204_M4K4]^RTD Inputs Channel 3^Status^Error</Value>
-              </Property>
-              <Property>
-                <Name>pytmc</Name>
-                <Value>
-        pv: MR4K4:KBO:RTD:TAIL
-        field: EGU C
-        io: i
-    </Value>
-              </Property>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309719040</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M5K4_RTD.nM5K4_Chin_Left_RTD</Name>
-            <Comment> M5K4 RTDs</Comment>
-            <BitSize>256</BitSize>
-            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>.iRaw := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Value;
-                              .bUnderrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Status^Underrange;
-                              .bOverrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Status^Overrange;
-                              .bError := TIIB[EL3204_M5K4]^RTD Inputs Channel 1^Status^Error</Value>
-              </Property>
-              <Property>
-                <Name>pytmc</Name>
-                <Value>
-        pv: MR5K4:KBO:RTD:CHIN:L
-        field: EGU C
-        io: i
-    </Value>
-              </Property>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309719296</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M5K4_RTD.nM5K4_Chin_Right_RTD</Name>
-            <BitSize>256</BitSize>
-            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>.iRaw := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Value;
-                              .bUnderrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Status^Underrange;
-                              .bOverrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Status^Overrange;
-                              .bError := TIIB[EL3204_M5K4]^RTD Inputs Channel 2^Status^Error</Value>
-              </Property>
-              <Property>
-                <Name>pytmc</Name>
-                <Value>
-        pv: MR5K4:KBO:RTD:CHIN:R
-        field: EGU C
-        io: i
-    </Value>
-              </Property>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309719552</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>GVL_M5K4_RTD.nM5K4_Chin_Tail_RTD</Name>
-            <BitSize>256</BitSize>
-            <BaseType Namespace="LCLS_General">FB_TempSensor</BaseType>
-            <Properties>
-              <Property>
-                <Name>TcLinkTo</Name>
-                <Value>.iRaw := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Value;
-                              .bUnderrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Status^Underrange;
-                              .bOverrange := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Status^Overrange;
-                              .bError := TIIB[EL3204_M5K4]^RTD Inputs Channel 3^Status^Error</Value>
-              </Property>
-              <Property>
-                <Name>pytmc</Name>
-                <Value>
-        pv: MR5K4:KBO:RTD:TAIL
-        field: EGU C
-        io: i
-    </Value>
-              </Property>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
-            <BitOffs>1309719808</BitOffs>
+            <BitOffs>1309936320</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_LicenseInfoVarList._LicenseInfo</Name>
@@ -112469,7 +112607,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309720736</BitOffs>
+            <BitOffs>1310433952</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskInfo</Name>
@@ -112487,7 +112625,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309723840</BitOffs>
+            <BitOffs>1310437056</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskPouOid_PlcTask</Name>
@@ -112501,7 +112639,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309727008</BitOffs>
+            <BitOffs>1310440224</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskOid_PlcTask</Name>
@@ -112515,7 +112653,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309727040</BitOffs>
+            <BitOffs>1310440256</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList.__PlcTask</Name>
@@ -112536,13 +112674,7 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1309728896</BitOffs>
-          </Symbol>
-          <Symbol>
-            <Name>PRG_PMPS.bST4K4_IN</Name>
-            <BitSize>8</BitSize>
-            <BaseType>BOOL</BaseType>
-            <BitOffs>1310121232</BitOffs>
+            <BitOffs>1310442112</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
@@ -112635,15 +112767,15 @@ Silicon surface: RBV &lt;= 4820000: 0000_0000_0001_1110 (allow everything betwee
         </Property>
         <Property>
           <Name>ChangeDate</Name>
-          <Value>2026-04-13T09:55:03</Value>
+          <Value>2026-04-15T10:13:16</Value>
         </Property>
         <Property>
           <Name>GeneratedCodeSize</Name>
-          <Value>1368064</Value>
+          <Value>1372160</Value>
         </Property>
         <Property>
           <Name>GlobalDataSize</Name>
-          <Value>163364864</Value>
+          <Value>163454976</Value>
         </Property>
         <Property>
           <Name>UTF8EncodedStrings</Name>

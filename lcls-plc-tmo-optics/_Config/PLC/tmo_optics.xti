@@ -1340,7 +1340,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{7FA5AD82-8B94-448C-8921-86A608467E2A}" Name="tmo_optics" PrjFilePath="..\..\tmo_optics\tmo_optics.plcproj" TmcFilePath="..\..\tmo_optics\tmo_optics.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{6394D4BC-ACE8-1ED0-F31B-6EFFF4EB30C9}" TmcPath="tmo_optics\tmo_optics.tmc">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{309FB646-266F-2A4D-0826-315C02874E31}" TmcPath="tmo_optics\tmo_optics.tmc">
 			<Name>tmo_optics Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="8" ContextId="2" AreaNo="36">
@@ -1787,12 +1787,12 @@ External Setpoint Generation:
 					<Type>BOOL</Type>
 				</Var>
 				<Var>
-					<Name>PRG_MR1K4_SOMS.bActivateVarCool</Name>
-					<Type>BOOL</Type>
-				</Var>
-				<Var>
 					<Name>PRG_PMPS.fbArbiterIO.q_stRequestedBP</Name>
 					<Type GUID="{292CD354-C7C0-4A61-AAD0-1C85DD69646B}">ST_BeamParams_IO</Type>
+				</Var>
+				<Var>
+					<Name>PRG_MR1K4_SOMS.bActivateVarCool</Name>
+					<Type>BOOL</Type>
 				</Var>
 				<Var>
 					<Name>PRG_SL2K4_SCATTER.fbSL2K4.fbTopBlade.fbDriveVirtual.MasterAxis.PlcToNc</Name>
@@ -1820,6 +1820,10 @@ External Setpoint Generation:
 				</Var>
 				<Var>
 					<Name>GVL_PMPS.g_FastFaultOutput2.q_xFastFaultOut</Name>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>GVL_PMPS.g_FastFaultOutput3.q_xFastFaultOut</Name>
 					<Type>BOOL</Type>
 				</Var>
 			</Vars>
@@ -3555,6 +3559,12 @@ External Setpoint Generation:
 					<Type>DINT</Type>
 				</Var>
 				<Var>
+					<Name>GVL_M2K4_RTD.nM2K4US_RTD_1</Name>
+					<Comment><![CDATA[ M2K4 BENDER RTDs
+ M2K4 US RTDs]]></Comment>
+					<Type>INT</Type>
+				</Var>
+				<Var>
 					<Name>PRG_MR2K4_KBO.fbCoolingPanel.fbFlow_1.iRaw</Name>
 					<Comment><![CDATA[ Connect this input to the terminal]]></Comment>
 					<Type>DINT</Type>
@@ -3677,12 +3687,6 @@ External Setpoint Generation:
 				<Var>
 					<Name>PRG_SL2K4_SCATTER.fbSL2K4.AptArrayReq</Name>
 					<Type GUID="{67AC048F-B785-4A4D-B941-B11E2213F502}">ST_PMPS_Aperture_IO</Type>
-				</Var>
-				<Var>
-					<Name>GVL_M2K4_RTD.nM2K4US_RTD_1</Name>
-					<Comment><![CDATA[ M2K4 BENDER RTDs
- M2K4 US RTDs]]></Comment>
-					<Type>INT</Type>
 				</Var>
 				<Var>
 					<Name>P_StripeProtections.fbStripProtMR1K4.ffUpperCoatingLTemp.bError</Name>
@@ -3881,6 +3885,11 @@ External Setpoint Generation:
 					<Type>INT</Type>
 				</Var>
 				<Var>
+					<Name>GVL_M1K4.M1K4_Pitch.diEncCnt</Name>
+					<Comment><![CDATA[Raw encoder count]]></Comment>
+					<Type>LINT</Type>
+				</Var>
+				<Var>
 					<Name>GVL_M2K4_RTD.nM2K4DS_RTD_1</Name>
 					<Comment><![CDATA[ M2K4 DS RTDs]]></Comment>
 					<Type>INT</Type>
@@ -3898,11 +3907,6 @@ External Setpoint Generation:
 				<Var>
 					<Name>GVL_M3K4_RTD.nM3K4US_RTD_3</Name>
 					<Type>INT</Type>
-				</Var>
-				<Var>
-					<Name>GVL_M1K4.M1K4_Pitch.diEncCnt</Name>
-					<Comment><![CDATA[Raw encoder count]]></Comment>
-					<Type>LINT</Type>
 				</Var>
 				<Var>
 					<Name>GVL_M3K4_RTD.nM3K4DS_RTD_1</Name>

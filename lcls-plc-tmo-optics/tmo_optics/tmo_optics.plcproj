@@ -207,7 +207,7 @@
         </Parameter>
       </Parameters>
     </LibraryReference>
-    <LibraryReference Include="PMPS,3.4.1,SLAC - LCLS">
+    <LibraryReference Include="PMPS,3.14.0,SLAC - LCLS">
       <Namespace>PMPS</Namespace>
     </LibraryReference>
   </ItemGroup>
@@ -223,9 +223,6 @@
     </PlaceholderResolution>
     <PlaceholderResolution Include="lcls-twincat-optics">
       <Resolution>lcls-twincat-optics, 0.9.0 (SLAC)</Resolution>
-    </PlaceholderResolution>
-    <PlaceholderResolution Include="PMPS">
-      <Resolution>PMPS, 3.4.1 (SLAC - LCLS)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_MC2">
       <Resolution>Tc2_MC2, 3.3.42.0 (Beckhoff Automation GmbH)</Resolution>

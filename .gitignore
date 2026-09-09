@@ -10,7 +10,7 @@ _CompileInfo
 TrialLicense.tclrs
 *.library
 *.dbg
-
+*.vs/
 # EPICS ignores
 O.*
 archive
